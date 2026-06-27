@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vedika Enterprises | Mini Excavator on Hire in Pune",
-  description: "Vedika Enterprises offers reliable mini excavator, poclain, compact and bobcat rental services across Pune, Maharashtra. Trained operators. 18+ years experience.",
+  title: "Shree Gajan Earthmovers | Mini Excavator on Hire in Pune",
+  description: "Shree Gajan Earthmovers offers reliable mini excavator, poclain, compact and bobcat rental services across Pune, Maharashtra. Trained operators. 18+ years experience.",
 };
 
 export default function RootLayout({

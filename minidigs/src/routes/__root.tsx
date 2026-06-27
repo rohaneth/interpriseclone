@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vedika Enterprises | Mini Excavator on Hire in Pune" },
-      { name: "description", content: "Vedika Enterprises offers reliable mini excavator, poclain, compact and bobcat rental services across Pune, Maharashtra. Trained operators. 18+ years experience." },
-      { property: "og:title", content: "Vedika Enterprises | Mini Excavator on Hire in Pune" },
+      { title: " Shree Gajan Earthmovers | Mini Excavator on Hire in Pune" },
+      { name: "description", content: "Shree Gajan Earthmovers offers reliable mini excavator, poclain, compact and bobcat rental services across Pune, Maharashtra. Trained operators. 18+ years experience." },
+      { property: "og:title", content: "Shree Gajan Earthmovers | Mini Excavator on Hire in Pune" },
       { property: "og:description", content: "Mini excavator, poclain, compact & bobcat rentals across Pune with trained operators and flexible daily/weekly/monthly plans." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

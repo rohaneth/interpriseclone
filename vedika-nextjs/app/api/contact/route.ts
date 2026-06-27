@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
         <p>${message || 'No message provided'}</p>
         <p><strong>Time:</strong> ${new Date().toLocaleString()}</p>
         <hr>
-        <p><em>This enquiry was submitted via Vedika Enterprises website</em></p>
+        <p><em>This enquiry was submitted via Shree Gajan Earthmovers website</em></p>
       `,
     };
 

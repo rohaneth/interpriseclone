@@ -11,9 +11,9 @@ import aboutImg from "@/assets/about-side.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vedika Enterprises | Mini Excavator on Hire in Pune" },
-      { name: "description", content: "Vedika Enterprises — mini excavator, poclain, compact and bobcat rentals in Pune. Trained operators, 24x7 support, 18+ years of experience." },
-      { property: "og:title", content: "Vedika Enterprises | Mini Excavator on Hire in Pune" },
+      { title: "Shree Gajan Earthmovers | Mini Excavator on Hire in Pune" },
+      { name: "description", content: "Shree Gajan Earthmovers — mini excavator, poclain, compact and bobcat rentals in Pune. Trained operators, 24x7 support, 18+ years of experience." },
+      { property: "og:title", content: "Shree Gajan Earthmovers | Mini Excavator on Hire in Pune" },
       { property: "og:description", content: "Mini excavator, poclain, compact & bobcat rentals across Pune with trained operators and flexible rental plans." },
       { property: "og:image", content: heroImg },
       { name: "twitter:image", content: heroImg },
@@ -106,7 +106,7 @@ function Header() {
             VE
           </div>
           <div className="leading-tight">
-            <div className="font-display text-2xl text-[var(--ink)]">Vedika Enterprises</div>
+            <div className="font-display text-2xl text-[var(--ink)]"> Shree Gajan Earthmovers</div>
             <div className="text-xs text-muted-foreground">Mini Excavator on Rent · Pune</div>
           </div>
         </a>
@@ -173,7 +173,7 @@ function About() {
     <section id="about" className="py-20 md:py-28">
       <div className="container-x grid lg:grid-cols-2 gap-12 items-center">
         <div className="relative">
-          <img src={aboutImg} alt="Vedika Enterprises operator giving a thumbs up from the excavator cabin" loading="lazy" width={800} height={900} className="rounded-xl shadow-[var(--shadow-elegant)] w-full object-cover aspect-[4/5]" />
+          <img src={aboutImg} alt="Shree Gajan Earthmovers operator giving a thumbs up from the excavator cabin" loading="lazy" width={800} height={900} className="rounded-xl shadow-[var(--shadow-elegant)] w-full object-cover aspect-[4/5]" />
           <div className="absolute -bottom-6 -right-6 hidden md:block bg-[var(--brand)] text-primary-foreground rounded-xl p-5 shadow-xl">
             <div className="font-display text-4xl leading-none">18+</div>
             <div className="text-xs uppercase tracking-widest mt-1">Years on the ground</div>
@@ -181,9 +181,9 @@ function About() {
         </div>
         <div>
           <div className="text-sm font-semibold uppercase tracking-widest text-[var(--brand)]">Welcome To</div>
-          <h2 className="mt-2 font-display text-4xl md:text-5xl text-[var(--ink)]">Vedika Enterprises</h2>
+          <h2 className="mt-2 font-display text-4xl md:text-5xl text-[var(--ink)]">Shree Gajan Earthmovers</h2>
           <p className="mt-5 text-muted-foreground leading-relaxed">
-            Initiated in 2007 and headquartered in Balewadi-Baner, Pune, Vedika Enterprises has grown into a trusted name in the earthmovers on hire industry. We serve a diverse clientele across Pune and nearby regions with consistency, integrity and customer focus.
+            Initiated in 2007 and headquartered in Balewadi-Baner, Pune, Shree Gajan Earthmovers has grown into a trusted name in the earthmovers on hire industry. We serve a diverse clientele across Pune and nearby regions with consistency, integrity and customer focus.
           </p>
           <p className="mt-4 text-muted-foreground leading-relaxed">
             From urban builds to infrastructure projects, our team delivers reliable machines and skilled operators that keep your timelines on track.
@@ -376,7 +376,7 @@ function Footer() {
     <footer className="bg-[var(--ink)] text-white/80 pt-16 pb-8">
       <div className="container-x grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <div className="font-display text-3xl text-white">Vedika Enterprises</div>
+          <div className="font-display text-3xl text-white">Shree Gajan Earthmovers</div>
           <p className="mt-3 text-sm text-white/70 max-w-md">A trusted name for mini excavator, poclain, compact and bobcat rentals across Pune and Maharashtra since 2007.</p>
         </div>
         <div>
@@ -395,7 +395,7 @@ function Footer() {
         </div>
       </div>
       <div className="container-x mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs text-white/60">
-        <div>© {new Date().getFullYear()} Vedika Enterprises. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} Shree Gajan Earthmovers. All rights reserved.</div>
         <div>Mini Excavator on Hire · Pune, Maharashtra</div>
       </div>
     </footer>
